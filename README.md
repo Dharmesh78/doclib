@@ -56,7 +56,7 @@ demo_proj
 
 ### Follow the steps
 
-1. Add ``doclib`` and ``rest_framework`` to your INSTALLED_APPS setting like this
+1. Add ``doclib`` and ``rest_framework`` to your INSTALLED_APPS of settings.py like this
 
     INSTALLED_APPS = [  
         ...  
