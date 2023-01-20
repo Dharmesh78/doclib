@@ -66,9 +66,13 @@ demo_proj
 
 2. Include the doclib URLconf in your project urls.py like this
 
+    ```from django.conf.urls import include```
+
     ``path('doclib/', include('doclib.urls'))``
 
 3. Provide ``MEDIA_ROOT`` in your project settings.py, something like this
+    
+    ```import os```
 
     ``MEDIA_ROOT = os.path.join(BASE_DIR, 'media')``
 
