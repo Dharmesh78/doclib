@@ -36,7 +36,7 @@ With multiple different software and accounts being used to store our documents 
 Install the package  
 
 ```py
-pip install django-doclib
+pip3 install django-doclib
 ```
 
 ### Before running the server, make sure ```Directory``` looks like
@@ -107,9 +107,9 @@ demo_proj
         APP_ID        = env("APP_ID")
         ```
 
-6. Run ``python manage.py migrate`` to create the doclib models.
+6. Run ``python3 manage.py migrate`` to create the doclib models.
 
-7. Start the development server by running ``python manage.py runserver localhost:8000``
+7. Start the development server by running ``python3 manage.py runserver localhost:8000``
 
 8. Visit ``http://localhost:8000/doclib/`` to access the doclib.
 
